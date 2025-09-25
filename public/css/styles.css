@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background: #f6f8fa
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    max-width: 420px;
+    margin: 40px auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1)
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.project, .task {
+    background: #fff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px
+}
+
+.error {
+    background: #ffe6e6;
+    padding: 8px;
+    border: 1px solid #ffb3b3
+}
+
+.success {
+    background: #e6ffe6;
+    padding: 8px;
+    border: 1px solid #b3ffb3
+}
